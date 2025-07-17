@@ -2,6 +2,7 @@ import React from 'react'
 import Chai from './chai.jsx'
 import ReactElement from './components/ReactElement.jsx'
 import Counter from './components/Counter.jsx';
+import TailwindProps from './components/TailwindProps.jsx';
 
 function App() {
   // avaluated exression {username}
@@ -13,6 +14,7 @@ function App() {
       <h5>{username}</h5>
       <h6>{workenperience}</h6>
       <Counter />
+      <TailwindProps />
     </div>
   )
 }
