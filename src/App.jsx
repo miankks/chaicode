@@ -3,6 +3,7 @@ import Chai from './chai.jsx'
 import ReactElement from './components/ReactElement.jsx'
 import Counter from './components/Counter.jsx';
 import TailwindProps from './components/TailwindProps.jsx';
+import BgChanger from './components/BgChanger.jsx';
 
 function App() {
   // avaluated exression {username}
@@ -10,11 +11,12 @@ function App() {
   let workenperience = '5 years'
   return (
     <div>
-      <ReactElement />
+      {/* <ReactElement />
       <h5>{username}</h5>
       <h6>{workenperience}</h6>
       <Counter />
-      <TailwindProps />
+      <TailwindProps /> */}
+      <BgChanger />
     </div>
   )
 }
