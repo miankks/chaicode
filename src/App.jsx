@@ -4,11 +4,12 @@ import ReactElement from './components/ReactElement.jsx'
 import Counter from './components/Counter.jsx';
 import TailwindProps from './components/TailwindProps.jsx';
 import BgChanger from './components/BgChanger.jsx';
+import Hooks from './components/Hooks.jsx';
 
 function App() {
   // avaluated exression {username}
-  const username = 'chai aur code';
-  let workenperience = '5 years'
+  // const username = 'chai aur code';
+  // let workenperience = '5 years'
   return (
     <div>
       {/* <ReactElement />
@@ -16,7 +17,8 @@ function App() {
       <h6>{workenperience}</h6>
       <Counter />
       <TailwindProps /> */}
-      <BgChanger />
+      {/* <BgChanger /> */}
+      <Hooks />
     </div>
   )
 }
