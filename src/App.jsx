@@ -1,10 +1,11 @@
 import React from 'react'
-import Chai from './chai.jsx'
-import ReactElement from './components/ReactElement.jsx'
-import Counter from './components/Counter.jsx';
-import TailwindProps from './components/TailwindProps.jsx';
-import BgChanger from './components/BgChanger.jsx';
-import Hooks from './components/Hooks.jsx';
+// import Chai from './chai.jsx'
+// import ReactElement from './components'
+// import Counter from './components';
+// import TailwindProps from './components';
+// import BgChanger from './components';
+// import Hooks from './components';
+import {CurrencyApp} from './components';
 
 function App() {
   // avaluated exression {username}
@@ -18,7 +19,8 @@ function App() {
       <Counter />
       <TailwindProps /> */}
       {/* <BgChanger /> */}
-      <Hooks />
+      {/* <Hooks /> */}
+      <CurrencyApp />
     </div>
   )
 }
