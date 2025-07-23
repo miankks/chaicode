@@ -17,7 +17,7 @@ const Counter = () => {
   return (
     <div>
         <h2>Counter value: {counter}</h2>
-        <button onClick={addValue}>Increase value {counter}</button>
+        <button onClick={addValue} className='border-t-cyan-200'>Increase value {counter}</button>
         <br />
         <button onClick={removeValue}>Decrease value {counter}</button>
         <p>{counter}</p>

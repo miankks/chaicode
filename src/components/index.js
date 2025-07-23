@@ -13,4 +13,8 @@ import About from "./About/About";
 import Contact from "./Contact/Contact";
 import User from "./User/User";
 import Github from "./Github/Github";
-export {Github, User,InputBox, CurrencyApp, BgChanger, Card, Counter, Hooks, ReactElement, TailwindProps, Home, Header, Footer, About, Contact}
+import ContextApi from "./ContextAPI/ContecxtApi";
+import Basics from "./Basics/Basics";
+import Login from "./ContextAPI/Login";
+import Profile from "./ContextAPI/Profile";
+export {Login, Profile,Basics, ContextApi ,Github, User,InputBox, CurrencyApp, BgChanger, Card, Counter, Hooks, ReactElement, TailwindProps, Home, Header, Footer, About, Contact}
