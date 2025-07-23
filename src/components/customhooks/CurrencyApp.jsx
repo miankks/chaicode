@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import {InputBox} from '../../components'
-import useCurrencyInfo from '../customhooks/InputBox'
+import {InputBox} from '..'
+import useCurrencyInfo from './InputBox'
 import Freecurrencyapi from '@everapi/freecurrencyapi-js';
 
 
