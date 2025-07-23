@@ -4,7 +4,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 
 import App from './App.jsx'
 import './index.css'
-import { Home, About, Contact, User, Github } from './components/index.js'
+import { Home, About, Contact, User, Github, ContextApi, Basics, BgChanger, Card, Counter, Hooks, ReactElement, TailwindProps, Login, Profile } from './components/index.js'
 import { githubInfoLoader } from './components/Github/Github.jsx'
 
 // const router = createBrowserRouter([
@@ -22,6 +22,29 @@ import { githubInfoLoader } from './components/Github/Github.jsx'
 //       {
 //         path: "contact",
 //         element: <Contact />
+//       },
+//       {
+//         loader:{githubInfoLoader},
+//         path: "github",
+//         element: <Github />
+//       },
+//       {
+//         path: "user/:userid",
+//         element: <User />
+//       },
+//       {
+//         path: "contextapi",
+//         element: <ContextApi />
+//       },
+//       {
+//         path: "basics",
+//         element: <Basics />,
+//         children:[
+//           {
+//             path: "card",
+//             element: <Card />
+//           }
+//         ]
 //       }
 //     ]
 //   }
@@ -33,6 +56,18 @@ const router = createBrowserRouter(
       <Route path='' element={<Home />}/>
       <Route path='about' element={<About />}/>
       <Route path='contact' element={<Contact />}/>
+      <Route path='contextapi' element={<ContextApi />}/>
+      <Route path='basics' element={<Basics />}>
+        <Route path='card' element={<Card />} />
+        <Route path='counter' element={<Counter />} />
+        <Route path='hooks' element={<Hooks />} />
+        <Route path='reactelement' element={<ReactElement />} />
+        <Route path='tailwindprops' element={<TailwindProps />} />
+        <Route path='backgroundchanger' element={BgChanger}/>
+      </Route>
+      <Route path='profile' element={<Profile />} />
+      <Route path='login' element={<Login />} />
+      
       <Route 
         loader={githubInfoLoader}
         path='github' 
