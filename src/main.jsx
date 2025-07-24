@@ -4,7 +4,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 
 import App from './App.jsx'
 import './index.css'
-import { Home, About, Contact, User, Github, ContextApi, Basics, BgChanger, Card, Counter, Hooks, ReactElement, TailwindProps, Login, Profile } from './components/index.js'
+import { Home, About, Contact, User, Github, ContextApi, Basics, BgChanger, Card, Counter, Hooks, ReactElement, TailwindProps, Login, Profile, ThemeSwitcher } from './components/index.js'
 import { githubInfoLoader } from './components/Github/Github.jsx'
 
 // const router = createBrowserRouter([
@@ -67,6 +67,7 @@ const router = createBrowserRouter(
       </Route>
       <Route path='profile' element={<Profile />} />
       <Route path='login' element={<Login />} />
+      <Route path='themeswitcher' element={<ThemeSwitcher />} />
       
       <Route 
         loader={githubInfoLoader}
