@@ -4,13 +4,14 @@ import useTheme from '../Contexts/Theme'
 const ThemeButton = () => {
 
     const {themeMode, lightTheme, darkTheme} = useTheme()
+    
     const onChangeBtn = (e) => {
         const darkModeStatus = e.currentTarget.checked;
         console.log(darkModeStatus)
         if(darkModeStatus) {
-            lightTheme()
-        } else {
             darkTheme()
+        } else {
+            lightTheme()
         }
     }
   return (
