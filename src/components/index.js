@@ -1,5 +1,5 @@
-import InputBox from "./Customhooks/InputBox";
-import CurrencyApp from "./Customhooks/CurrencyApp";
+import InputBox from "./customhooks/InputBox";
+import CurrencyApp from "./customhooks/CurrencyApp";
 import BgChanger from "./Basics/BgChanger";
 import Card from "./Basics/Card";
 import Counter from "./Basics/Counter";
