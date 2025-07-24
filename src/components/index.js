@@ -3,7 +3,7 @@ import CurrencyApp from "./Customhooks/CurrencyApp";
 import BgChanger from "./Basics/BgChanger";
 import Card from "./Basics/Card";
 import Counter from "./Basics/Counter";
-import Hooks from "./Basics/Hooks";
+import Hooks from "../components/Basics/Hooks";
 import ReactElement from "./Basics/ReactElement";
 import TailwindProps from "./Basics/TailwindProps";
 import Home from "./Home/Home";
@@ -17,4 +17,5 @@ import ContextApi from "./ContextAPI/ContecxtApi";
 import Basics from "./Basics/Basics";
 import Login from "./ContextAPI/Login";
 import Profile from "./ContextAPI/Profile";
-export {Login, Profile,Basics, ContextApi ,Github, User,InputBox, CurrencyApp, BgChanger, Card, Counter, Hooks, ReactElement, TailwindProps, Home, Header, Footer, About, Contact}
+import ThemeSwitcher from "./ThemeSwitcher/ThemeSwitcher";
+export {ThemeSwitcher, Login, Profile,Basics, ContextApi ,Github, User,InputBox, CurrencyApp, BgChanger, Card, Counter, Hooks, ReactElement, TailwindProps, Home, Header, Footer, About, Contact}
