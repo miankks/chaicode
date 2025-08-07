@@ -18,4 +18,5 @@ import Basics from "./Basics/Basics";
 import Login from "./ContextAPI/Login";
 import Profile from "./ContextAPI/Profile";
 import ThemeSwitcher from "./ThemeSwitcher/ThemeSwitcher";
-export {ThemeSwitcher, Login, Profile,Basics, ContextApi ,Github, User,InputBox, CurrencyApp, BgChanger, Card, Counter, Hooks, ReactElement, TailwindProps, Home, Header, Footer, About, Contact}
+import Todo from "./Todo/Todo";
+export {Todo, ThemeSwitcher, Login, Profile,Basics, ContextApi ,Github, User,InputBox, CurrencyApp, BgChanger, Card, Counter, Hooks, ReactElement, TailwindProps, Home, Header, Footer, About, Contact}
